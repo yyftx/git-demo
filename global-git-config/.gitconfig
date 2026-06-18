@@ -1,0 +1,8 @@
+﻿[user]
+	name = yyftx
+	email = 2918668506+yyftx@users.noreply.github.com
+[core]
+	editor = \"D:\\竞赛\\工具\\Microsoft VS Code\\bin\\code\" --wait
+	excludesFile = C:\\Users\\ASUS\\OneDrive\\Desktop\\git-demo\\global-git-config\\ignore
+[safe]
+	directory = *
