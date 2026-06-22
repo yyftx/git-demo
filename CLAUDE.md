@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 ## 项目概述
-个人 Python 学习与 Git 练习项目，包含简单的 Python 脚本和文本文件。
+个人 Python 学习与 Git 练习项目，包含 Pygame 小游戏、AI 内容创作产出物及 gstack 工具集成。
 
 ## 技术栈
 - **语言**: Python 3
@@ -11,18 +11,20 @@
 ## 项目结构
 ```
 .
-├── aaa.py              # 九九乘法表
-├── fruits.txt          # 水果列表
-├── .vscode/launch.json # VS Code Python 调试配置
-├── .env                # 环境变量（已加入 .gitignore）
-├── .gitignore          # 忽略 .env 和 node_modules/
-└── CLAUDE.md           # 项目指南（本文件）
+├── 产出/
+│   └── app/
+│       ├── crying_cat.py   # Pygame 像素流泪猫咪
+│       └── fruits.txt      # 水果列表
+├── .vscode/launch.json     # VS Code Python 调试配置
+├── .env                    # 环境变量（已加入 .gitignore）
+├── .gitignore              # 忽略 .env 和 node_modules/
+└── CLAUDE.md               # 项目指南（本文件）
 ```
 
 ## 常用命令
 ```bash
 # 运行 Python 脚本
-python aaa.py
+python 产出/app/crying_cat.py
 
 # VS Code 中按 F5 启动调试
 ```

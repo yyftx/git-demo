@@ -1,2 +1,18 @@
 .env
-node_modules/ 
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# IDE
+.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
